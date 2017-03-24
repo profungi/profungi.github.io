@@ -58,6 +58,10 @@ h3 {
 	width: 100%;
 }
 
+.img-circle {
+	border-radius: 50%;
+}
+
 /* index*/
 .bg-1 {
 	padding-top: 40px; 
