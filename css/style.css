@@ -88,13 +88,13 @@ h3 {
 
 .btn-default {
 	color:#fff;
-	background-color: #F38630;
+	background-color: #f38630;
 	border: none;
 }
 
 .btn-default:hover {
 	color:#FA6900;
-	background-color: #E0E4CC;
+	background-color: #e0e4cc;
 	border: none;
 }
 
@@ -117,10 +117,29 @@ h3 {
 
 /* footer */
 .socialicon {
-	color: #E97332;
+	color: #e97332;
 }
 
 .socialicon:hover {
-	color: #A7DBD8;
+	color: #a7dbd8;
+}
+
+/* table */
+table {
+	border: 2px solid #e0e4cc;
+	max-width:100%;
+	color:#3c3c3c;
+}
+
+table tr th {
+	text-align: center;
+	background:#e0e4cc;
+	color:#f38630;
+	padding:.3em 1em;
 }
  
+table td {
+	text-align: center;
+	padding:.3em 1em;
+	border: 1px solid #e0e4cc;
+}
